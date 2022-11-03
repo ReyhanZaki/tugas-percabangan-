@@ -1,0 +1,60 @@
+//latihan1_rivaldi.php
+<?php
+$a = 80;
+$b = 81;
+
+if ($a % 2 == 0) { 
+    echo $a. " = bilangan ini bernilai genap<br>";
+}else {
+    echo $a. "= bilangan ini bernilai ganjil<br>";
+}
+if ($b % 2 == 0) {
+    echo $b. " =bilangan ini bernilai genap<br>";
+}else {
+    echo $b. " =bilangan ini bernilai ganjil<br>";
+}
+
+
+//latihan2_reyhan.php
+<?php
+$a = 5;
+$b = 8;
+
+if ($a < $b){
+    echo "$a lebih kecil dari $b";
+}elseif($a > $b){
+    echo "$a lebih besar dari $b";
+}elseif( $a == $b){
+    echo "$a sama dengan $b";
+}
+?>
+
+
+//latihan3_azka.php
+<?php
+$username = "admin";
+$password = "qwerty";
+
+if ($username == "admin" and $password == "qwerty") {
+  echo "Username dan password sesuai,hak akses di berikan"; 
+} elseif ($username != "admin" and $password != "qwerty") {
+  echo "Username dan password tidak sesuai";
+} elseif ($username != "admin" || $password != "qwerty") {
+  echo "Username atau password tidak sesuai";
+}
+
+
+//latihan4.php
+<?php
+ $username="admin";
+ $password="qwerty";
+ 
+ if ($username == "admin" && $password == "qwerty"){
+    echo "Username dan password sesuai,hak akses diberikan";
+ }elseif($username == "admin" && $password != "qwerty"){
+    echo "Username sesuai,password tidak sesuai";
+ }elseif($username != "admin" && $password == "qwerty"){
+    echo "Username tidak sesuai,password sesuai";
+ }elseif($username != "admin"&& $password != "qwerty"){
+    echo "Username dan password tidak sesuai";
+ }
